@@ -92,7 +92,7 @@ header {
 
 .player-single {
     max-width: 350px;
-    height: 474px;
+    min-height: 500px;
     background-color: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -105,20 +105,187 @@ header {
     width: 100%;
 }
 
-.player-info {}
+.player-info h2 {
+    margin: 15px 0;
+}
 
 .player-name {
     font-size: 28px;
     font-weight: 600;
 }
 
-.player-description {
+.description {
     font-size: 16px;
     line-height: 1.6;
     font-weight: 300;
 }
 
 /* palyers-gallery end */
+
+/* pricing club sizes section start */
+.pricing {
+    padding: 80px 0;
+}
+
+.pricing-content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pricing-cost-text {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.subs-btn {
+    width: 150px;
+    height: 60px;
+    border: none;
+    padding: 15px 25px;
+    margin-left: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #E02C6D;
+}
+
+.subs-btn:first-of-type {
+    background-color: #E02C6D;
+    color: #fff;
+}
+
+.subs-btn:last-of-type:hover {
+    background-color: #E02C6D;
+    color: #fff;
+}
+
+.pricing-table-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ebe9e9;
+    border-radius: 50px;
+    padding: 40px 0;
+}
+
+.pricing-single-unit:nth-child(2) {
+    border-right: 2px solid #c5c2c2;
+    border-left: 2px solid #c5c2c2;
+}
+
+.pricing-table-list {
+    padding: 60px 80px;
+}
+
+.pricing-table {
+    text-align: center;
+    font-weight: 300;
+}
+
+.pricing-title {
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+.teams {
+    font-size: 18px;
+    font-weight: inherit;
+    margin: 15px 0;
+}
+
+.pricing-btn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #E02C6D;
+}
+
+.pricng-condition-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.pricng-condition-list li {
+    font-size: 17px;
+    color: #111;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.pricng-condition-list li i {
+    color: #E02C6D;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.pricing-features-btn {
+    border: none;
+    padding: 20px 30px;
+    font-size: 17px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #E02C6D;
+    transition: background-color .4s;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.pricing-features-btn:hover {
+    background-color: #ec1463;
+}
+
+/* pricing club sizes section end */
+
+/* call to action area start */
+.cta-area {
+    padding: 80px 0;
+}
+
+.cta-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+}
+
+.cta-left-side {
+    width: 469px;
+}
+
+.cta-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cta-description p {
+    font-weight: 500;
+    color: #6C6C6C;
+    line-height: 1.8;
+    margin: 20px 0;
+    padding-right: 45px;
+}
+
+.cta-title {
+    font-size: 48px;
+    color: #111;
+}
+
+.cta-right-side {
+    max-width: 567px;
+}
+
+.cta-image img {
+    width: 100%;
+}
+
+/* call to action area end */
+
 /* footer start */
 .footer {
     padding: 60px 0;
@@ -170,8 +337,12 @@ header {
 }
 
 .footer-copyright {
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.footer-text {
     font-size: 18px;
+    font-weight: 500;
 }
 
 /* footer end */
