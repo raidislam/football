@@ -454,13 +454,12 @@ form {
     }
 
     .hero-left-content {
-        align-items: center;
         margin-bottom: 45px;
     }
 
     .hero-title {
-        font-size: 30px;
-        text-align: center;
+        font-size: 40px;
+        margin-bottom: 15px;
     }
 
     .hero-right-content {
@@ -477,6 +476,10 @@ form {
         margin-left: 20px;
     }
 
+    .player-info {
+        text-align: left;
+    }
+
     .cta-area {
         padding: 20px 0;
     }
@@ -486,30 +489,34 @@ form {
     }
 
     .cta-title {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .cta-description {
-        align-items: center;
         margin-bottom: 25px;
     }
 
-    .cta-description p {
-        padding: 0 25px;
-        text-align: center;
-    }
-
     .cta-left-side {
-        text-align: center;
+        padding-left: 10px;
     }
 
     .pricing {
         padding: 10px 0;
     }
 
-    .pricing-content h2 {
-        font-size: 30px;
+    .pricing-content {
+        padding-left: 10px;
     }
+
+    .pricing-content h2 {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .pricing-cost-text {
+        text-align: left;
+    }
+
 
     .pricing-table-box {
         grid-template-columns: repeat(1, 1fr);
